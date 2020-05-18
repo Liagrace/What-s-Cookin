@@ -1,0 +1,249 @@
+
+
+.title{
+    text-align: center;
+    font-family: 'Londrina Sketch';
+    padding-top: 70px;
+    text-shadow: 2px 2px white;
+    
+    
+ 
+}
+/*.fas {
+    color: #f44708;
+}*/
+
+.header {
+    /*background-color: lightgray;
+    background-image: linear-gradient(to right,#333,#9E0031,#f44708,  red , yellow);*/
+    background-image: linear-gradient(to right,#333,#9E0031,#f44708, #9E0031,#333);
+}
+
+.icons {
+    font-size: 25px;
+    float: right;
+    
+    
+    
+    
+}
+
+.pepper{
+    color:#f44708;
+}
+
+
+.heart-icon{
+    color:#9E0031;
+  
+}
+.search-icon {
+    color:#9E0031;
+    
+}
+.user-icon{
+    color:#9E0031;
+   
+    
+}
+
+/*.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel {
+    height: 400px;
+  }
+*/
+
+.description {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'fredericka the great';
+    background-color:#9E0031;
+}
+
+p {
+    color: white;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width:0;
+    
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    left: -15px;
+    height: 25px;
+    width: 25px;
+    background-color: #777;
+    
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #f44708;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #9E0031;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.ingredients {
+    background-color: #333;
+}
+
+
+
+
+label{
+    color: cornsilk;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 80px;
+    
+}
+.question {
+    text-align: center;
+    color: #f44708;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Londrina Sketch';
+    text-shadow: 2px 2px white;
+}
+    
+
+
+.instructions {
+    text-align: center;
+    margin: 35px;
+    color: cornsilk;
+
+}
+
+h3 {
+    color: #9E0031;
+    text-shadow: 2px 2px #f44708;
+}
+
+.button {
+    background-color: #f44708;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+    margin: auto;
+    
+    
+    
+    
+}
+
+.btn-btn {
+    font-size: 16px;
+    background-color: #f44708; 
+    border: none;
+    color: cornsilk;
+    display: center;
+  
+}
+
+
+#result {
+    
+    background-color: #333; 
+    
+    
+}
+
+#result h1 {
+    color: #f44708;  
+}
+
+h5 {
+    color: whitesmoke;
+    background-color: #333;
+    margin-left: -350px;
+}
+
+#result img {
+    width: 500px;
+   
+}
+
